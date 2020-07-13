@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q67-5s-AdR">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--YouTubeExample-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YouTubeExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bez-Sk-jys">
+                                <rect key="frame" x="64.5" y="301" width="285" height="172"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3F-fn-ifA">
+                                        <rect key="frame" x="0.0" y="0.0" width="285" height="44"/>
+                                        <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="JYB-WT-IpO"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="285" id="o3G-WR-DAf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="YouTube Player iOS Helper (Official)">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="D9m-Hc-Wg6" kind="show" id="Bvk-Jr-Uqi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rW-il-R2x">
+                                        <rect key="frame" x="3.5" y="64" width="278" height="44"/>
+                                        <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="278" id="ZyS-pk-s2j"/>
+                                            <constraint firstAttribute="height" constant="44" id="w4c-bT-EQj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="XCDYouTubeKit (3rd Party Library)">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Lma-MS-e6q" kind="show" id="HUu-8Y-SOu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x88-bR-RDX">
+                                        <rect key="frame" x="93.5" y="128" width="98" height="44"/>
+                                        <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="QVO-dJ-mfY"/>
+                                            <constraint firstAttribute="height" constant="44" id="Wfo-S7-x1T"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="WebView">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ETW-oo-lxd" kind="show" id="n8Q-QL-Ext"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73725490196078436" green="0.12941176470588234" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bez-Sk-jys" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="5GA-EK-uqu"/>
+                            <constraint firstItem="bez-Sk-jys" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="K3H-BS-w43"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="YouTubeExample" id="JYS-qH-igv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="966.66666666666674" y="782.8125"/>
+        </scene>
+        <!--XCDYouTubeKit-->
+        <scene sceneID="mHg-8f-6ac">
+            <objects>
+                <viewController id="Lma-MS-e6q" customClass="XCDYouTubeKitViewController" customModule="YouTubeExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q38-Z2-pbL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="65j-ht-DlF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="65j-ht-DlF" secondAttribute="height" multiplier="16:9" id="fma-je-97H"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73725490199999999" green="0.12941176469999999" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="65j-ht-DlF" firstAttribute="trailing" secondItem="xKf-gC-I4C" secondAttribute="trailing" id="4e8-Dh-yZu"/>
+                            <constraint firstItem="65j-ht-DlF" firstAttribute="top" secondItem="xKf-gC-I4C" secondAttribute="top" id="TyT-1q-6ip"/>
+                            <constraint firstItem="65j-ht-DlF" firstAttribute="width" secondItem="q38-Z2-pbL" secondAttribute="width" id="ckM-dA-FFD"/>
+                            <constraint firstItem="65j-ht-DlF" firstAttribute="leading" secondItem="xKf-gC-I4C" secondAttribute="leading" id="uQ3-eX-Wnu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xKf-gC-I4C"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="XCDYouTubeKit" id="KVy-us-X5M"/>
+                    <connections>
+                        <outlet property="playerViewContainer" destination="65j-ht-DlF" id="AJM-iL-C4o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXz-yX-0tW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1755" y="783"/>
+        </scene>
+        <!--WebView-->
+        <scene sceneID="ycF-Vk-81P">
+            <objects>
+                <viewController id="ETW-oo-lxd" customClass="WebView" customModule="YouTubeExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Sa-8u-ZDI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oCH-bS-iqO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oCH-bS-iqO" secondAttribute="height" multiplier="16:9" id="X9M-w5-lS4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73725490199999999" green="0.12941176469999999" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oCH-bS-iqO" firstAttribute="leading" secondItem="Tqh-dw-5fH" secondAttribute="leading" id="Lvd-j7-zXW"/>
+                            <constraint firstItem="oCH-bS-iqO" firstAttribute="trailing" secondItem="Tqh-dw-5fH" secondAttribute="trailing" id="Mmv-c3-M8h"/>
+                            <constraint firstItem="oCH-bS-iqO" firstAttribute="top" secondItem="Tqh-dw-5fH" secondAttribute="top" id="Pew-SO-4ID"/>
+                            <constraint firstItem="oCH-bS-iqO" firstAttribute="width" secondItem="4Sa-8u-ZDI" secondAttribute="width" id="yXl-ZT-XQf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Tqh-dw-5fH"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="WebView" id="Lfs-E1-rPJ"/>
+                    <connections>
+                        <outlet property="webPlayerView" destination="oCH-bS-iqO" id="vLG-Es-UEX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0JH-Fl-9jd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1312" y="1470"/>
+        </scene>
+        <!--YouTube Player iOS Helper-->
+        <scene sceneID="25I-Zi-YhX">
+            <objects>
+                <viewController id="D9m-Hc-Wg6" customClass="YouTubePlayeriOSHelperViewController" customModule="YouTubeExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iXt-m1-2Q8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mdp-Pf-wla" customClass="YTPlayerView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Mdp-Pf-wla" secondAttribute="height" multiplier="16:9" id="iNm-gu-r5F"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73725490199999999" green="0.12941176469999999" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mdp-Pf-wla" firstAttribute="width" secondItem="iXt-m1-2Q8" secondAttribute="width" id="29Q-cY-h0p"/>
+                            <constraint firstItem="Mdp-Pf-wla" firstAttribute="top" secondItem="dHI-yP-BuY" secondAttribute="top" id="CMk-Ss-eT4"/>
+                            <constraint firstItem="Mdp-Pf-wla" firstAttribute="trailing" secondItem="dHI-yP-BuY" secondAttribute="trailing" id="o2B-A2-wCi"/>
+                            <constraint firstItem="Mdp-Pf-wla" firstAttribute="leading" secondItem="dHI-yP-BuY" secondAttribute="leading" id="rvU-zr-GzO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dHI-yP-BuY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="YouTube Player iOS Helper" id="3Io-eK-geW"/>
+                    <connections>
+                        <outlet property="playerView" destination="Mdp-Pf-wla" id="4Xt-vM-WJG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j1A-3L-ZZ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1312" y="115"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lvi-Hd-He6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q67-5s-AdR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="tpd-pN-2NO">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="NEP-lL-xpN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AwI-qI-s4m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253.62318840579712" y="783.48214285714278"/>
+        </scene>
+    </scenes>
+</document>

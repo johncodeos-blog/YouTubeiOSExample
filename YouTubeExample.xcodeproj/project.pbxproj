@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A2587BCAFB0C50C0D5F5380 /* Pods_YouTubeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8BCC35513031E7ED78DB32 /* Pods_YouTubeExample.framework */; };
+		C24BF25724A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BF25624A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift */; };
+		C24BF25924A62A15001BEED5 /* XCDYouTubeKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BF25824A62A15001BEED5 /* XCDYouTubeKitViewController.swift */; };
+		C24BF25B24A64834001BEED5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BF25A24A64834001BEED5 /* WebView.swift */; };
+		C24BF25D24A64A72001BEED5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24BF25C24A64A72001BEED5 /* WebKit.framework */; };
+		C2AF85772303DD20003A314B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF85762303DD20003A314B /* AppDelegate.swift */; };
+		C2AF85792303DD20003A314B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF85782303DD20003A314B /* ViewController.swift */; };
+		C2AF857C2303DD20003A314B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AF857A2303DD20003A314B /* Main.storyboard */; };
+		C2AF857E2303DD21003A314B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AF857D2303DD21003A314B /* Assets.xcassets */; };
+		C2AF85812303DD21003A314B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AF857F2303DD21003A314B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A8BCC35513031E7ED78DB32 /* Pods_YouTubeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouTubeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF2608BB781043C70B9A014 /* Pods-YouTubeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTubeExample.debug.xcconfig"; path = "Target Support Files/Pods-YouTubeExample/Pods-YouTubeExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C24BF25624A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubePlayeriOSHelperViewController.swift; sourceTree = "<group>"; };
+		C24BF25824A62A15001BEED5 /* XCDYouTubeKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCDYouTubeKitViewController.swift; sourceTree = "<group>"; };
+		C24BF25A24A64834001BEED5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		C24BF25C24A64A72001BEED5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C2AF85732303DD20003A314B /* YouTubeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AF85762303DD20003A314B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2AF85782303DD20003A314B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2AF857B2303DD20003A314B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2AF857D2303DD21003A314B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2AF85802303DD21003A314B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2AF85822303DD21003A314B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4F93F5A3B3A86475FC76BC /* Pods-YouTubeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTubeExample.release.xcconfig"; path = "Target Support Files/Pods-YouTubeExample/Pods-YouTubeExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2AF85702303DD20003A314B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24BF25D24A64A72001BEED5 /* WebKit.framework in Frameworks */,
+				5A2587BCAFB0C50C0D5F5380 /* Pods_YouTubeExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62E372C75326B282F92D65DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF2608BB781043C70B9A014 /* Pods-YouTubeExample.debug.xcconfig */,
+				DB4F93F5A3B3A86475FC76BC /* Pods-YouTubeExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6E74D0B42293D0D3C8FFB97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C24BF25C24A64A72001BEED5 /* WebKit.framework */,
+				6A8BCC35513031E7ED78DB32 /* Pods_YouTubeExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2AF856A2303DD20003A314B = {
+			isa = PBXGroup;
+			children = (
+				C2AF85752303DD20003A314B /* YouTubeExample */,
+				C2AF85742303DD20003A314B /* Products */,
+				62E372C75326B282F92D65DB /* Pods */,
+				A6E74D0B42293D0D3C8FFB97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2AF85742303DD20003A314B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF85732303DD20003A314B /* YouTubeExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2AF85752303DD20003A314B /* YouTubeExample */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF85762303DD20003A314B /* AppDelegate.swift */,
+				C2AF85782303DD20003A314B /* ViewController.swift */,
+				C2AF857A2303DD20003A314B /* Main.storyboard */,
+				C2AF857D2303DD21003A314B /* Assets.xcassets */,
+				C2AF857F2303DD21003A314B /* LaunchScreen.storyboard */,
+				C2AF85822303DD21003A314B /* Info.plist */,
+				C24BF25624A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift */,
+				C24BF25824A62A15001BEED5 /* XCDYouTubeKitViewController.swift */,
+				C24BF25A24A64834001BEED5 /* WebView.swift */,
+			);
+			path = YouTubeExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2AF85722303DD20003A314B /* YouTubeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2AF85852303DD21003A314B /* Build configuration list for PBXNativeTarget "YouTubeExample" */;
+			buildPhases = (
+				F832120116F0257C8A0148E8 /* [CP] Check Pods Manifest.lock */,
+				C2AF856F2303DD20003A314B /* Sources */,
+				C2AF85702303DD20003A314B /* Frameworks */,
+				C2AF85712303DD20003A314B /* Resources */,
+				5CA6F34AE259C6E03C7E221A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubeExample;
+			productName = YouTubeExample;
+			productReference = C2AF85732303DD20003A314B /* YouTubeExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2AF856B2303DD20003A314B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "John Codeos";
+				TargetAttributes = {
+					C2AF85722303DD20003A314B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = C2AF856E2303DD20003A314B /* Build configuration list for PBXProject "YouTubeExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2AF856A2303DD20003A314B;
+			productRefGroup = C2AF85742303DD20003A314B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2AF85722303DD20003A314B /* YouTubeExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2AF85712303DD20003A314B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AF85812303DD21003A314B /* LaunchScreen.storyboard in Resources */,
+				C2AF857E2303DD21003A314B /* Assets.xcassets in Resources */,
+				C2AF857C2303DD20003A314B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CA6F34AE259C6E03C7E221A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YouTubeExample/Pods-YouTubeExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YouTubeExample/Pods-YouTubeExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YouTubeExample/Pods-YouTubeExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F832120116F0257C8A0148E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YouTubeExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2AF856F2303DD20003A314B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24BF25724A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift in Sources */,
+				C24BF25B24A64834001BEED5 /* WebView.swift in Sources */,
+				C24BF25924A62A15001BEED5 /* XCDYouTubeKitViewController.swift in Sources */,
+				C2AF85792303DD20003A314B /* ViewController.swift in Sources */,
+				C2AF85772303DD20003A314B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2AF857A2303DD20003A314B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2AF857B2303DD20003A314B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2AF857F2303DD21003A314B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2AF85802303DD21003A314B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2AF85832303DD21003A314B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2AF85842303DD21003A314B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2AF85862303DD21003A314B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF2608BB781043C70B9A014 /* Pods-YouTubeExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P8Q9Q6J62;
+				INFOPLIST_FILE = YouTubeExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johncodeos.YouTubeExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2AF85872303DD21003A314B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4F93F5A3B3A86475FC76BC /* Pods-YouTubeExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P8Q9Q6J62;
+				INFOPLIST_FILE = YouTubeExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johncodeos.YouTubeExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2AF856E2303DD20003A314B /* Build configuration list for PBXProject "YouTubeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AF85832303DD21003A314B /* Debug */,
+				C2AF85842303DD21003A314B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2AF85852303DD21003A314B /* Build configuration list for PBXNativeTarget "YouTubeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AF85862303DD21003A314B /* Debug */,
+				C2AF85872303DD21003A314B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2AF856B2303DD20003A314B /* Project object */;
+}
