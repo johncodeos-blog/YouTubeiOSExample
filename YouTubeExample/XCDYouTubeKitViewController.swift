@@ -11,10 +11,7 @@ import XCDYouTubeKit
 
 class XCDYouTubeKitViewController: UIViewController {
     
-    
     @IBOutlet var playerViewContainer: UIView!
-    
-    var playerView: AVPlayer!
     
     let playerViewController = AVPlayerViewController()
     
@@ -23,29 +20,26 @@ class XCDYouTubeKitViewController: UIViewController {
         
         let videoId = "YE7VzlLtp-4"
         
-        let youtubeClient = XCDYouTubeClient.default()
-        youtubeClient.getVideoWithIdentifier(videoId) { video, _ in
-            guard let ytVideo = video else { fatalError("Couldn't get the video from video id") }
-            
-            // YouTube has removed 1080p mp4 videos
-            guard let streamURL = (ytVideo.streamURLs[XCDYouTubeVideoQualityHTTPLiveStreaming] ??
-                ytVideo.streamURLs[XCDYouTubeVideoQuality.HD720.rawValue] ?? ytVideo.streamURLs[XCDYouTubeVideoQuality.medium360.rawValue] ?? ytVideo.streamURLs[XCDYouTubeVideoQuality.small240.rawValue]) else { fatalError("Couldn't get URL for this quality") }
-            self.playerView = AVPlayer(url: streamURL)
-            
-            self.playerViewController.player = self.playerView
-            self.addChild(self.playerViewController)
-            
-            // Add your view Frame
-            self.playerViewController.view.frame = self.playerViewContainer.bounds
-            
-            // Add sub view in your view
-            self.playerViewContainer.addSubview(self.playerViewController.view)
-            
-            // Start video when you open the ViewController
-//            self.playerView.start()
-            
-            // Press play button to start the video
-            self.playerView.pause()
-        }
+        XCDYouTubeClient.default().getVideoWithIdentifier(videoId, completionHandler: { [self] video, error in
+            if let video = video {
+                AVPlayerViewControllerManager.shared.video = video
+                let playerViewController = AVPlayerViewControllerManager.shared.controller
+                playerViewController.allowsPictureInPicturePlayback = false
+                playerViewController.view.frame = playerViewContainer.bounds
+                addChild(playerViewController)
+                if let view = playerViewController.view {
+                    playerViewContainer.addSubview(view)
+                }
+                playerViewController.didMove(toParent: self)
+
+            } else {
+                print(error!.localizedDescription)
+            }
+        })
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        AVPlayerViewControllerManager.shared.controller.player?.pause()
     }
 }

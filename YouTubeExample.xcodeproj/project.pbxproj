@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5A2587BCAFB0C50C0D5F5380 /* Pods_YouTubeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8BCC35513031E7ED78DB32 /* Pods_YouTubeExample.framework */; };
+		C219FCB12591571E007E0A56 /* AVPlayerViewControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C219FCB02591571E007E0A56 /* AVPlayerViewControllerManager.swift */; };
 		C24BF25724A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BF25624A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift */; };
 		C24BF25924A62A15001BEED5 /* XCDYouTubeKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BF25824A62A15001BEED5 /* XCDYouTubeKitViewController.swift */; };
 		C24BF25B24A64834001BEED5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BF25A24A64834001BEED5 /* WebView.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		6A8BCC35513031E7ED78DB32 /* Pods_YouTubeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouTubeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF2608BB781043C70B9A014 /* Pods-YouTubeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTubeExample.debug.xcconfig"; path = "Target Support Files/Pods-YouTubeExample/Pods-YouTubeExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C219FCB02591571E007E0A56 /* AVPlayerViewControllerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerViewControllerManager.swift; sourceTree = "<group>"; };
 		C24BF25624A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubePlayeriOSHelperViewController.swift; sourceTree = "<group>"; };
 		C24BF25824A62A15001BEED5 /* XCDYouTubeKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCDYouTubeKitViewController.swift; sourceTree = "<group>"; };
 		C24BF25A24A64834001BEED5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				C2AF857D2303DD21003A314B /* Assets.xcassets */,
 				C2AF857F2303DD21003A314B /* LaunchScreen.storyboard */,
 				C2AF85822303DD21003A314B /* Info.plist */,
+				C219FCB02591571E007E0A56 /* AVPlayerViewControllerManager.swift */,
 				C24BF25624A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift */,
 				C24BF25824A62A15001BEED5 /* XCDYouTubeKitViewController.swift */,
 				C24BF25A24A64834001BEED5 /* WebView.swift */,
@@ -220,6 +223,7 @@
 				C24BF25B24A64834001BEED5 /* WebView.swift in Sources */,
 				C24BF25924A62A15001BEED5 /* XCDYouTubeKitViewController.swift in Sources */,
 				C2AF85792303DD20003A314B /* ViewController.swift in Sources */,
+				C219FCB12591571E007E0A56 /* AVPlayerViewControllerManager.swift in Sources */,
 				C2AF85772303DD20003A314B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
