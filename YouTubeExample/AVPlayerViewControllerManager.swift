@@ -9,7 +9,7 @@
 import AVKit
 import Foundation
 import MediaPlayer
-import XCDYouTubeKit
+import XCDYouTubeKit_kbexdev
 
 extension UIViewController {
     func topMostViewController() -> UIViewController {
@@ -60,7 +60,7 @@ extension UIView {
                 return
             }
             let streamURL = video.streamURL
-            self.player = AVPlayer(url: streamURL)
+            self.player = AVPlayer(url: streamURL!)
             self.controller.player = self.player
         }
     }

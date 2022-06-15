@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q67-5s-AdR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q67-5s-AdR">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +19,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bez-Sk-jys">
                                 <rect key="frame" x="64.5" y="301" width="285" height="172"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3F-fn-ifA">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3F-fn-ifA">
                                         <rect key="frame" x="0.0" y="0.0" width="285" height="44"/>
                                         <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -34,7 +34,7 @@
                                             <segue destination="D9m-Hc-Wg6" kind="show" id="Bvk-Jr-Uqi"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rW-il-R2x">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rW-il-R2x">
                                         <rect key="frame" x="3.5" y="64" width="278" height="44"/>
                                         <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -49,7 +49,7 @@
                                             <segue destination="Lma-MS-e6q" kind="show" id="HUu-8Y-SOu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x88-bR-RDX">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x88-bR-RDX">
                                         <rect key="frame" x="93.5" y="128" width="98" height="44"/>
                                         <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -67,18 +67,18 @@
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.73725490196078436" green="0.12941176470588234" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bez-Sk-jys" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="5GA-EK-uqu"/>
                             <constraint firstItem="bez-Sk-jys" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="K3H-BS-w43"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="YouTubeExample" id="JYS-qH-igv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="966.66666666666674" y="782.8125"/>
+            <point key="canvasLocation" x="1876.8115942028987" y="782.8125"/>
         </scene>
         <!--XCDYouTubeKit-->
         <scene sceneID="mHg-8f-6ac">
@@ -96,6 +96,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="xKf-gC-I4C"/>
                         <color key="backgroundColor" red="0.73725490199999999" green="0.12941176469999999" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="65j-ht-DlF" firstAttribute="trailing" secondItem="xKf-gC-I4C" secondAttribute="trailing" id="4e8-Dh-yZu"/>
@@ -103,7 +104,6 @@
                             <constraint firstItem="65j-ht-DlF" firstAttribute="width" secondItem="q38-Z2-pbL" secondAttribute="width" id="ckM-dA-FFD"/>
                             <constraint firstItem="65j-ht-DlF" firstAttribute="leading" secondItem="xKf-gC-I4C" secondAttribute="leading" id="uQ3-eX-Wnu"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="xKf-gC-I4C"/>
                     </view>
                     <navigationItem key="navigationItem" title="XCDYouTubeKit" id="KVy-us-X5M"/>
                     <connections>
@@ -112,7 +112,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UXz-yX-0tW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1755" y="783"/>
+            <point key="canvasLocation" x="2663.768115942029" y="782.8125"/>
         </scene>
         <!--WebView-->
         <scene sceneID="ycF-Vk-81P">
@@ -130,6 +130,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Tqh-dw-5fH"/>
                         <color key="backgroundColor" red="0.73725490199999999" green="0.12941176469999999" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oCH-bS-iqO" firstAttribute="leading" secondItem="Tqh-dw-5fH" secondAttribute="leading" id="Lvd-j7-zXW"/>
@@ -137,7 +138,6 @@
                             <constraint firstItem="oCH-bS-iqO" firstAttribute="top" secondItem="Tqh-dw-5fH" secondAttribute="top" id="Pew-SO-4ID"/>
                             <constraint firstItem="oCH-bS-iqO" firstAttribute="width" secondItem="4Sa-8u-ZDI" secondAttribute="width" id="yXl-ZT-XQf"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Tqh-dw-5fH"/>
                     </view>
                     <navigationItem key="navigationItem" title="WebView" id="Lfs-E1-rPJ"/>
                     <connections>
@@ -164,6 +164,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="dHI-yP-BuY"/>
                         <color key="backgroundColor" red="0.73725490199999999" green="0.12941176469999999" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Mdp-Pf-wla" firstAttribute="width" secondItem="iXt-m1-2Q8" secondAttribute="width" id="29Q-cY-h0p"/>
@@ -171,7 +172,6 @@
                             <constraint firstItem="Mdp-Pf-wla" firstAttribute="trailing" secondItem="dHI-yP-BuY" secondAttribute="trailing" id="o2B-A2-wCi"/>
                             <constraint firstItem="Mdp-Pf-wla" firstAttribute="leading" secondItem="dHI-yP-BuY" secondAttribute="leading" id="rvU-zr-GzO"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="dHI-yP-BuY"/>
                     </view>
                     <navigationItem key="navigationItem" title="YouTube Player iOS Helper" id="3Io-eK-geW"/>
                     <connections>
@@ -180,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j1A-3L-ZZ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1312" y="115"/>
+            <point key="canvasLocation" x="2221.739130434783" y="114.50892857142857"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lvi-Hd-He6">
@@ -203,7 +203,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AwI-qI-s4m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="253.62318840579712" y="783.48214285714278"/>
+            <point key="canvasLocation" x="1163.768115942029" y="783.48214285714278"/>
         </scene>
     </scenes>
 </document>

@@ -7,7 +7,7 @@
 //
 import UIKit
 import AVKit
-import XCDYouTubeKit
+import XCDYouTubeKit_kbexdev
 
 class XCDYouTubeKitViewController: UIViewController {
     
