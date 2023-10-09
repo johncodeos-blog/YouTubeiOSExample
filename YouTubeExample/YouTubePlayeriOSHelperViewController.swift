@@ -7,34 +7,51 @@
 //
 
 import UIKit
-import youtube_ios_player_helper
+import YouTubeiOSPlayerHelper
 
 class YouTubePlayeriOSHelperViewController: UIViewController {
+    
     @IBOutlet var playerView: YTPlayerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Set playsinline = 1 to able to play the video inside the UIViewController
+        setupPlayerView()
+        loadVideo(videoId: "YE7VzlLtp-4")
+    }
+    
+    private func setupPlayerView() {
         playerView.delegate = self
-        playerView.load(withVideoId: "YE7VzlLtp-4", playerVars: ["playsinline": "1"])
-        
-        // If you want to change the video after you loaded the first one, use the following code
-//        playerView.cueVideo(byId: "DQuhA5ZCV9M", startSeconds: 0)
-        
         playerView.webView?.backgroundColor = .black
         playerView.webView?.isOpaque = false
     }
+    
+    private func loadVideo(videoId: String) {
+        // Set playsinline = 1 to enable the video play inside the UIViewController
+        let playerVars: [String: Any] = ["playsinline": 1]
+        playerView.load(withVideoId: videoId, playerVars: playerVars)
+    }
+    
+    // Uncomment the following method if you want to change the video after you loaded the first one
+    /*
+    private func loadAnotherVideo(videoId: String, startSeconds: Float) {
+        playerView.cueVideo(byId: videoId, startSeconds: startSeconds)
+    }
+    */
 }
 
 extension YouTubePlayeriOSHelperViewController: YTPlayerViewDelegate {
+    
     func playerViewPreferredWebViewBackgroundColor(_ playerView: YTPlayerView) -> UIColor {
-        return UIColor.black
+        return .black
     }
     
-//    func playerViewPreferredInitialLoading(_ playerView: YTPlayerView) -> UIView? {
-//        let customLoadingView = UIView()
-//        Create a custom loading view
-//        return customLoadingView
-//    }
+    // Uncomment the following method if you want to use a custom loading view
+    /*
+    func playerViewPreferredInitialLoading(_ playerView: YTPlayerView) -> UIView? {
+        let customLoadingView = UIView()
+        // Create a custom loading view
+        return customLoadingView
+    }
+    */
 }
+

@@ -6,14 +6,12 @@
 //  Copyright © 2020 John Codeos. All rights reserved.
 //
 
-import UIKit
 import AVKit
+import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         do {
@@ -24,13 +22,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         return true
     }
-    
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        AVPlayerViewControllerManager.shared.disconnectPlayer()
-    }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        AVPlayerViewControllerManager.shared.reconnectPlayer(rootViewController: (window?.rootViewController)!)
-    }
-
 }
