@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		C234748D2AD482FF0084FCEF /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = C234748C2AD482FF0084FCEF /* YouTubeiOSPlayerHelper */; };
 		C24BF25724A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BF25624A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift */; };
-		C24BF25B24A64834001BEED5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BF25A24A64834001BEED5 /* WebView.swift */; };
-		C24BF25D24A64A72001BEED5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24BF25C24A64A72001BEED5 /* WebKit.framework */; };
+		C24BF25B24A64834001BEED5 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BF25A24A64834001BEED5 /* WebViewViewController.swift */; };
 		C2AF85772303DD20003A314B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF85762303DD20003A314B /* AppDelegate.swift */; };
 		C2AF85792303DD20003A314B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF85782303DD20003A314B /* HomeViewController.swift */; };
 		C2AF857C2303DD20003A314B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AF857A2303DD20003A314B /* Main.storyboard */; };
@@ -20,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		C24BF25624A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubePlayeriOSHelperViewController.swift; sourceTree = "<group>"; };
-		C24BF25A24A64834001BEED5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		C24BF25A24A64834001BEED5 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		C24BF25C24A64A72001BEED5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C2AF85732303DD20003A314B /* YouTubeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AF85762303DD20003A314B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C24BF25D24A64A72001BEED5 /* WebKit.framework in Frameworks */,
 				C234748D2AD482FF0084FCEF /* YouTubeiOSPlayerHelper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,7 +77,7 @@
 				C2AF857F2303DD21003A314B /* LaunchScreen.storyboard */,
 				C2AF85822303DD21003A314B /* Info.plist */,
 				C24BF25624A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift */,
-				C24BF25A24A64834001BEED5 /* WebView.swift */,
+				C24BF25A24A64834001BEED5 /* WebViewViewController.swift */,
 			);
 			path = YouTubeExample;
 			sourceTree = "<group>";
@@ -163,7 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C24BF25724A621AB001BEED5 /* YouTubePlayeriOSHelperViewController.swift in Sources */,
-				C24BF25B24A64834001BEED5 /* WebView.swift in Sources */,
+				C24BF25B24A64834001BEED5 /* WebViewViewController.swift in Sources */,
 				C2AF85792303DD20003A314B /* HomeViewController.swift in Sources */,
 				C2AF85772303DD20003A314B /* AppDelegate.swift in Sources */,
 			);

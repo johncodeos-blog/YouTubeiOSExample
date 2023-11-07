@@ -1,5 +1,5 @@
 //
-//  WebView.swift
+//  WebViewViewController.swift
 //  YouTubeExample
 //
 //  Created by John Codeos on 6/1/20.
@@ -9,7 +9,8 @@
 import UIKit
 import WebKit
 
-class WebView: UIViewController {
+class WebViewViewController: UIViewController {
+    
     @IBOutlet weak var webPlayerView: UIView!
     
     lazy var webPlayer: WKWebView = {
